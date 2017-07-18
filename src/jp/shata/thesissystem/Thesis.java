@@ -22,9 +22,5 @@ public class Thesis {
 
 	protected String getTitle () { return title; }
 	protected ArrayList<Author> getAuthors () { return authors; }
-
-	@Override
-	public boolean equals (Object obj) {
-		if (! obj instanceof Thesis) return false;
-		Thesis thesis.
+	protected Calendar getDate () { return date; }
 }
